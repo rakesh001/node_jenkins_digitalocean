@@ -1,0 +1,28 @@
+{
+  "name": "node_jenkins_digitalocean",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakesh001/node_jenkins_digitalocean.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rakesh001/node_jenkins_digitalocean/issues"
+  },
+  "homepage": "https://github.com/rakesh001/node_jenkins_digitalocean#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^7.1.2",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  }
+}
