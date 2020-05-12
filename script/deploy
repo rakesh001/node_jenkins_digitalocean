@@ -1,8 +1,8 @@
-#!/bin/sh     
-ssh rakatech@139.59.15.4 <<EOF       
- cd /node_jenkins_digitalocean 
- git pull      
- npm install --production      
+#!/bin/sh
+ssh rakatech@139.59.15.4 <<EOF
+ cd ~/node_jenkins_digitalocean
+ git pull
+ npm install --production
  pm2 restart all
- exit      
+ exit
 EOF
